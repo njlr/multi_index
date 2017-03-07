@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'basic',
+  srcs = [
+    'basic.cpp',
+  ],
+  deps = [
+    '//:boost-multi-index',
+  ],
+)

@@ -1,7 +1,7 @@
 include_defs('//BUCKAROO_DEPS')
 
 prebuilt_cxx_library(
-  name = 'boost-multi-index', 
+  name = 'multi-index', 
   header_only = True, 
   header_namespace = 'boost',
   exported_headers = subdir_glob([
